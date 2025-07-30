@@ -16,7 +16,7 @@ app.get('/prueba', (req, res) => {
 });
 
 conectoDB();
-insertarSemillaDB();
+// insertarSemillaDB();
 
 app.use('/api', apiRoutes);
 
