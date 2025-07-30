@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const uri = "mongodb+srv://hcollazos073:bA06375HAWY2NMOa@cluster0.z0q8zlg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const uri = "mongodb+srv://hcollazos073:bA06375HAWY2NMOa@cluster0.z0q8zlg.mongodb.net/bdatos?retryWrites=true&w=majority&appName=Cluster0"
 
 export const conectoDB = async () => {
     try {
